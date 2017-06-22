@@ -17,10 +17,10 @@ class App extends Component {
     super();
 
     this.clientId =
-      "826265862385-p41e559ccssujlfsf49ppmo0gktkf6co.apps.googleusercontent.com";
+      "660593412357-nci7tqt2n9spu7vr3klfj1hsf4gjf7ad.apps.googleusercontent.com";
     this.spreadsheetId =
       process.env.REACT_APP_SHEET_ID ||
-      "1eYrQf0xhs2mTSWEzQRfSM-MD-tCcx1r0NVEacLg3Jrc";
+      "1Mr3Ubfs2eaUUZAutZChDKAMvwh8JRLaicg4-_t47lQ0";
 
     this.state = {
       signedIn: undefined,
